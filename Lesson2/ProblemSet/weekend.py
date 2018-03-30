@@ -2,10 +2,7 @@
 # returns the boolean True if it's 'Saturday' or 'Sunday' and False otherwise.
 
 def weekend(day):
-   result = False
-   if (day == 'Saturday' or day == 'Sunday'):
-       result = True
-   return result
+    return day == 'Saturday' or day == 'Sunday'
     
 print weekend('Monday')
 #>>> False
